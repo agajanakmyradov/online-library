@@ -1,0 +1,36 @@
+
+
+.slide-background {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+.books {
+    max-width: 210px;
+}
+
+
+@media  (max-width:468px) {
+    .slide-wisdom {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .books  {
+        width: 120px
+    }
+
+    .books img  {
+        width: 100px
+    }
+}
+
+@media  (min-width:468px) {
+    .slide-wisdom {
+        font-size: 1.3rem;
+    }
+}

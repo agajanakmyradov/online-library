@@ -1,0 +1,15 @@
+@media (max-width: 700px) {
+    .inputs {
+        width: 90%;
+    }
+}
+
+@media (min-width: 700px) {
+    .inputs {
+        width: 49.7%;
+    }
+}
+
+.year, .lang {
+    width: 100px;
+}
